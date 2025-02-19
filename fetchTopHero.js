@@ -43,7 +43,7 @@ fs.readFile('uids.json', 'utf8', (err, data) => {
       // calculate wr and format playtime
       topHeroes.forEach(hero => {
         hero.winRate = hero.matches > 0 ? ((hero.wins / hero.matches) * 100).toFixed(2) + '%' : '0%';
-        hero.playTime = new Date(hero.play_time * 1000).toISOString().substring(11, 8); // make it to HH:MM:SS
+        hero.playTime = new Date(hero.play_time * 1000).toISOString().substring(11, 19); // make it to HH:MM:SS
       });
 
       // check for otp's
