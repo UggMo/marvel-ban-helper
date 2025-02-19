@@ -1,12 +1,12 @@
 import subprocess
 
-def runScript(command, script_name):
+def runScript(command, scriptName):
     # subprocess script and erorr handling
     try:
         subprocess.run(command, check=True, shell=True)
-        print(f"{script_name} worked.")
+        print(f"{scriptName} worked.")
     except subprocess.CalledProcessError as e:
-        print(f"{script_name} no work (probably need to put your API key in an .env file): {e}")
+        print(f"{scriptName} no work (probably need to put your API key in an .env file): {e}")
 
 if __name__ == "__main__":
     print("Get into a ranked game loading screen...")
