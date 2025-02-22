@@ -66,9 +66,6 @@ marvel-rivals-winrate-checker/
 └── README.md           # Project documentation
 ```
 
-## License
-This project is open-source under the MIT License.
-
 ## Contact
 For any questions or contributions, feel free to reach out here: simmontq23@gmail.com
 
