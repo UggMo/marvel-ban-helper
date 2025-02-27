@@ -52,20 +52,6 @@ Just run main while having the game open queuing into a competitive game and res
 python main.py
 ```
 
-## File Structure
-```
-marvel-rivals-winrate-checker/
-├── ocr.py              # OCR script for extracting usernames
-├── calls.js            # Fetches player UIDs
-├── fetchTopHero.js     # Retrieves top hero stats
-├── .env                # Stores API key
-├── package.json        # Node.js dependencies
-├── topHeroes.json      # Stores hero stats
-├── usernames.json      # Stores extracted usernames
-├── uids.json           # Stores player UIDs
-└── README.md           # Project documentation
-```
-
 ## Contact
 For any questions or contributions, feel free to reach out here: simmontq23@gmail.com
 
