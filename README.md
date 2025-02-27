@@ -1,7 +1,7 @@
-# Marvel Rivals Winrate Checker local ver
+# Marvel Rivals Ban Helper local ver
 
 ## Overview
-The Marvel Rivals Winrate Checker is a tool that fetches and analyzes player statistics from the Marvel Rivals API. It extracts the most-played hero, calculates win rates, and determines player skill levels. The program includes an OCR-based username extractor and API calls to retrieve and update stats.
+The Marvel Rivals Ban Helper is a tool that fetches and analyzes player statistics from the Marvel Rivals API. It extracts the most-played hero, calculates win rates, and determines player skill levels. The program includes an OCR-based username extractor and API calls to retrieve and update stats.
 ## Features
 - **Fetch Player Stats**: Queries Marvel Rivals API for player winrate and hero usage.
 - **Top Hero Analysis**: Extracts the most-played hero and evaluates skill level, can also see individuals updated stats for top 3 heroes!
