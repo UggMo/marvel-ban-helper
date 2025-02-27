@@ -17,7 +17,6 @@ The Marvel Rivals Winrate Checker is a tool that fetches and analyzes player sta
 - **Python 3.x** (for OCR and automation scripts)
 - **Node.js & npm** (for API calls and future GUI development)
 - **Tesseract OCR** (for screen text recognition)
-- **AWS EC2 Instance** (optional for cloud deployment)
 - **.env File** (for storing API key securely)
 
 ### Get an API key from here!
@@ -54,4 +53,5 @@ python main.py
 
 ## Contact
 For any questions or contributions, feel free to reach out here: simmontq23@gmail.com
+cloud version need to contact me, the program is also uploaded to an EC2 instance, and access via SSH requires an IAM user with proper permissions.
 
