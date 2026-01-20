@@ -52,6 +52,6 @@ python main.py
 ```
 
 ## Contact
-For any questions or contributions, feel free to reach out here: simmontq23@gmail.com
+For any questions or contributions, feel free to reach out here: simmontq27@gmail.com
 cloud version need to contact me, the program is also uploaded to an EC2 instance, and access via SSH requires an IAM user with proper permissions.
 
